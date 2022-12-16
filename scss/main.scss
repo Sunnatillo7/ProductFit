@@ -1,0 +1,349 @@
+/* roboto-regular - latin */
+@font-face {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    src: local(''),
+        url('../fonts/roboto-v30-latin-regular.woff2') format('woff2'),
+        /* Chrome 26+, Opera 23+, Firefox 39+ */
+        url('../fonts/roboto-v30-latin-regular.woff') format('woff');
+    /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
+
+/* roboto-700 - latin */
+@font-face {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    src: local(''),
+        url('../fonts/roboto-v30-latin-700.woff2') format('woff2'),
+        /* Chrome 26+, Opera 23+, Firefox 39+ */
+        url('../fonts/roboto-v30-latin-700.woff') format('woff');
+    /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+}
+
+body {
+    font-family: 'Roboto' sans-serif;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px 0;
+}
+
+.header__top {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.header__list {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.header__item+.header__item {
+    margin-left: 45px;
+}
+
+.header__top--btn {
+    padding: 20px 40px;
+    font-family: 'Roboto' sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 17px;
+    color: #FFFFFF;
+    background: #F05670;
+    border-radius: 15px;
+    border: none;
+    cursor: pointer;
+
+}
+
+.tel {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 20px;
+    color: #1E959B;
+}
+
+
+
+// Header bottom
+
+.header__bottom {
+    margin-top: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.header__title {
+    max-width: 222px;
+    margin-bottom: 16px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 40px;
+    text-transform: uppercase;
+    color: #1E959B;
+
+}
+
+.header__param {
+    max-width: 300px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 16px;
+    color: #3C3C3C;
+}
+
+.header__button {
+    padding: 24px;
+    margin-top: 75px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 20px;
+    color: #FFFFFF;
+    background: #F05670;
+    box-shadow: 0px 5px 10px rgba(30, 149, 155, 0.5);
+    border-radius: 20px;
+    border: none;
+    cursor: pointer;
+
+
+}
+
+// main section
+
+.partners {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.partners__section {
+    background: #1E959B;
+}
+
+.interview__section {
+    padding-top: 100px;
+}
+
+.interview__item {
+    max-width: 200px;
+    text-align: center;
+    background: linear-gradient(180deg, #FFFFFF 0%, #F7F9FD 100%);
+    box-shadow: 0px 4px 4px rgba(30, 149, 155, 0.5);
+    border-radius: 25px;
+    padding: 18px 22px;
+
+}
+
+.interview__item:hover {
+    background: linear-gradient(180deg, #FFFFFF 0%, #F7F9FD 100%);
+    box-shadow: inset 0px 4px 4px rgba(30, 149, 155, 0.5);
+    border-radius: 25px;
+}
+
+.interview__list {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.list__param {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 17px;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.interview {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 35px;
+}
+
+.interview__title {
+    max-width: 385px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 40px;
+    text-transform: uppercase;
+    color: #1E959B;
+}
+
+.interview__param {
+    margin-top: 25px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 16px;
+    color: #3C3C3C;
+    max-width: 300px;
+}
+
+.interview__btn {
+    padding: 25px 20px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 20px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    background: #F05670;
+    box-shadow: 0px 5px 10px rgba(30, 149, 155, 0.5);
+    border-radius: 20px;
+    border: none;
+    margin-top: 40px;
+    cursor: pointer;
+}
+
+.button__hover:hover {
+    box-shadow: 0px 5px 10px rgba(21, 235, 246, 0.5);
+    border-radius: 20px;
+}
+
+
+
+@media only screen and (max-width:875px) {
+    .need {
+        display: none;
+    }
+
+
+    .header__top {
+        justify-content: space-around;
+    }
+
+    .bottom__img {
+        max-width: 300px;
+    }
+
+    .header__button {
+        padding: 14px;
+    }
+
+    .header__text {
+        margin-left: 45px;
+    }
+    .interview{
+        flex-direction: column;
+    }
+    .interview__text{
+        text-align: center;
+    }
+    .interview__param{
+        margin: 0 auto;
+        margin-top: 20px;
+    }
+
+
+}
+
+@media only screen and (max-width:1000px) {
+
+    .partners__img1,
+    .partners__img5 {
+        display: none;
+    }
+    .interview__item--block{
+        display: none;
+    }
+    .interview__photo{
+        width: 500px;
+        height: 400px;
+    }
+
+}
+
+@media only screen and (max-width:620px) {
+
+    .header__bottom {
+        flex-direction: column;
+    }
+
+}
+
+@media only screen and (max-width:535px) {
+    .none {
+        display: none;
+    }
+
+    .header__logo {
+
+        margin: 0 auto;
+    }
+
+    .header__bottom {
+        flex-direction: column;
+        // justify-content: center;
+        margin: 0 auto;
+    }
+
+    .header__title {
+        // text-align: center;
+        margin: 0 auto;
+    }
+
+    .header__text {
+        text-align: center;
+    }
+
+    .bottom__img {
+        max-width: 300px;
+    }
+
+    .partners__img1 {
+        display: block;
+        margin: 0 auto;
+    }
+
+    .partners__img2,
+    .partners__img3,
+    .partners__img4 {
+        display: none;
+    }
+    .interview__item--need{
+        display: none;
+    }
+    .interview__item{
+        margin: 0 auto;
+    }
+    .interview__photo{
+        width: 350px;
+        height: 300px;
+        margin: 0 auto;
+    }
+    .interview__btn{
+        width: 220px;
+       
+    }
+}
